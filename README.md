@@ -10,9 +10,7 @@ VideoPlayer use AVFoundation
 
 ##Video
 
-* Apple Developer WWDC Video
-  * WWDC 2014
-  * WWDC 2015
+* Apple Developer WWDC 2015 Video
 
 ##Third-party
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
