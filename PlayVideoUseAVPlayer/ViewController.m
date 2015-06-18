@@ -123,8 +123,8 @@ static void *AVPlayerDemoLoadedTimeRanges = &AVPlayerDemoLoadedTimeRanges;
     UIImage *blueSliderImgae = [UIImage imageNamed:@"blueline"];
     UIImage *graySliderImage = [UIImage imageNamed:@"grayline"];
     
-    UIImage *sliderRightTrackImage = [graySliderImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
-    UIImage *sliderLeftTrackImage = [blueSliderImgae resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    UIImage *sliderRightTrackImage = [graySliderImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, 10, 0, 5)];
+    UIImage *sliderLeftTrackImage = [blueSliderImgae resizableImageWithCapInsets:UIEdgeInsetsMake(0, 10, 0, 5)];
     
     [volumeView setMinimumVolumeSliderImage:sliderLeftTrackImage forState:UIControlStateNormal];
     [volumeView setMaximumVolumeSliderImage:sliderRightTrackImage forState:UIControlStateNormal];
